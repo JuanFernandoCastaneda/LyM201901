@@ -39,9 +39,5 @@ public class StringTokenizer {
 			return (tokens.length - tokenActual) <= 0;
 		}
 	}
-	
-	public String nextToken() {
-		return tokens[tokenActual++];
-	}
 }
 
