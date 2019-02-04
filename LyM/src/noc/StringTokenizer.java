@@ -41,7 +41,8 @@ public class StringTokenizer {
 	}
 	
 	public String nextToken() {
-		return tokens[tokenActual++];
+		tokenActual += 1;
+		return tokens[tokenActual - 1];
 	}
 }
 
